@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="APPLY COUPON CODE ON CART USING JAVASCRIPT"/>
+    <meta name="keywords"content="JAVASCRIPT, SIMPLE BANKING SYSTEM, BANK, Ashaduzzaman,Sazid,Ashaduzzaman (Sazid)"/>
+    <meta name="author" content="Ashaduzzaman Sazid"/>
+    <title>COUPON CODE</title>
+    <link rel="shortcut icon" href="img/favicon-coupon-code.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <main>
+        <article>
+            <aside>
+                <div>
+                    <img src="img/glass.png" alt="">
+                </div>
+                <div class="itemDetails">
+                    <div>
+                        <h3 class="cartItemName">Glass</h3>
+                    </div>
+                    <div class="priceAndQuantity">
+                        <h3>$ <span>120</span></h3>
+                        <input id="glassQuantityInputField" type="number" placeholder="1">
+                    </div>
+                </div>
+            </aside>
+            <aside>
+                <div>
+                    <img src="img/shrit.png" alt="">
+                </div>
+                <div class="itemDetails">
+                    <div>
+                        <h3 class="cartItemName">Shirt</h3>
+                    </div>
+                    <div class="priceAndQuantity">
+                        <h3>$ <span>180</span></h3>
+                        <input id="shirtQuantityInputField" type="number" placeholder="1">
+                    </div>
+                </div>
+            </aside>
+            <aside>
+                <div>
+                    <img src="img/pant.png" alt="">
+                </div>
+                <div class="itemDetails">
+                    <div>
+                        <h3 class="cartItemName">Pant</h3>
+                    </div>
+                    <div class="priceAndQuantity">
+                        <h3>$ <span>195</span></h3>
+                        <input id="pantQuantityInputField" type="number" placeholder="1">
+                    </div>
+                </div>
+            </aside>
+            <aside>
+                <div>
+                    <img src="img/shoe.png" alt="">
+                </div>
+                <div class="itemDetails">
+                    <div>
+                        <h3 class="cartItemName">Shoe</h3>
+                    </div>
+                    <div class="priceAndQuantity">
+                        <h3>$ <span>210</span></h3>
+                        <input id="shoeQuantityInputField" type="number" placeholder="1">
+                    </div>
+                </div>
+            </aside>
+        </article>
+        <h3 id="disclaimer">Disclaimer :- Enjoy 24% OFF<br>Coupon Code : OMG24</h3>
+        <section>
+            <input type="text" id="coupon-input" placeholder="Input coupon code">
+            <button id="btn-coupon-apply" type="submit">Apply</button>
+        </section>
+        <section id="bill-section">
+            <button id="btn-make-bill" type="submit">Make Bill</button>
+            <h2>Pay: <span id="payBillAmount">00</span>$</h2>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
