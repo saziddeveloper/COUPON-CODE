@@ -95,6 +95,9 @@ button:hover {
     border: 2px solid rgb(77, 75, 75);
     opacity: 85%;
 }
+button:active {
+  background-color: white;
+}
 h2 {
     margin-top: 18px;
     margin-bottom: 10px;
