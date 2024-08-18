@@ -96,7 +96,7 @@ button:hover {
     opacity: 85%;
 }
 button:active {
-  background-color: white;
+  background-color: rgb(82 78 78);
 }
 h2 {
     margin-top: 18px;
